@@ -4,7 +4,13 @@ body {
     background-color: #F0F0F0;
 }
 
+img {
+    width: 30%;
+    margin-top: -5%;
+}
+
 .white-block {
-    height: 50px;
+    height: 100px;
     background-color: white;
+    margin-top: 80%;
 }
