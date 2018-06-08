@@ -2,9 +2,74 @@
 
 body {
     background-color: #F0F0F0;
+    position: fixed;
+    width: 100%;
 }
 
 .white-block {
-    height: 50px;
     background-color: white;
+    margin-top: 12%;
+    padding: 0;
+    height: 11em;
+
 }
+
+.logo-image {
+    width: 38%;
+    position: relative;
+    bottom: 62%;
+}
+
+.codeup-text {
+    margin-top: 10%;
+}
+
+.thin-font {
+    font-family: 'Abel', sans-serif;
+}
+
+.thick-font {
+    font-family: 'Anton', sans-serif;
+}
+
+div.header-font h1 {
+    font-size: 8em;
+}
+
+.fluid-container {
+    padding: 1.5em;
+}
+
+ul.nav {
+    display: block;
+    margin: 2.2em auto 0 auto;
+}
+
+ul.nav li {
+    display: inline-block;
+    margin: 1em;
+}
+
+ul.nav li a {
+    color: black;
+    font-size: 3em;
+}
+
+h1.thick-font {
+    font-size: 8em;
+    margin-top: 1em;
+}
+
+h2.thick-font {
+    font-size: 5em;
+    margin-top: 1.3em;
+}
+
+.circle {
+    height: 2em;
+    width: 75%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
