@@ -63,18 +63,29 @@ ul.nav li a {
 h1.thick-font {
     font-size: 8em;
     margin-top: 1em;
+
 }
 
 h2.thick-font {
     font-size: 5em;
     margin-top: 1.3em;
+    margin-bottom: 1.3em;
 }
 
 .circle {
-    height: 2em;
-    width: 75%;
+    height: 25em;
+    width: 25em;
     border-radius: 50%;
-    background-color: red;
+    display: inline-block;
+    border: 1.5em white solid;
 }
 
+.center-txt {
+    font-size: 4em;
+    display: block;
+    margin-top: 30%;
+}
 
+.select {
+    margin-top: 6em;
+}
