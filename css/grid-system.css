@@ -71,10 +71,12 @@ h2.thick-font {
 }
 
 .circle {
-    height: 2em;
-    width: 75%;
+    height: 28em;
+    width: 20em;
     border-radius: 50%;
     background-color: red;
+    border: 2em white solid;
+    display: block;
 }
 
 
