@@ -6,6 +6,11 @@ body {
     width: 100%;
 }
 
+img {
+    width: 30%;
+    margin-top: -5%;
+}
+
 .white-block {
     background-color: white;
     margin-top: 12%;
@@ -17,7 +22,7 @@ body {
 .logo-image {
     width: 38%;
     position: relative;
-    bottom: 62%;
+    bottom: 27%;
 }
 
 .codeup-text {
