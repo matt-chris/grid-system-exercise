@@ -1,32 +1,46 @@
-
-
 body {
     background-color: #F0F0F0;
-    position: fixed;
     width: 100%;
+    font-family: 'Abel', sans-serif;
 }
 
-img {
-    width: 30%;
-    margin-top: -5%;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 32px;
+}
+h5 {
+    font-size: 28px;
+}
+
+h6 {
+    font-size: 24px;
 }
 
 .white-block {
     background-color: white;
-    margin-top: 12%;
+    margin-top: 8%;
     padding: 0;
-    height: 11em;
-
+    height: 4em;
+    margin-bottom: 10%;
 }
 
 .logo-image {
-    width: 38%;
+    width: 105px;
+    height: 105px;
     position: relative;
-    bottom: 27%;
-}
-
-.codeup-text {
-    margin-top: 10%;
+    bottom: 22px;
 }
 
 .thin-font {
@@ -41,58 +55,50 @@ div.header-font h1 {
     font-size: 8em;
 }
 
-.fluid-container {
-    padding: 1.5em;
-}
-
 ul.nav {
     display: block;
-    margin: 2.2em auto 0 auto;
+    margin: 1.5em auto 0 auto;
 }
 
 ul.nav li {
     display: inline-block;
-    margin: 1em;
+
 }
 
 ul.nav li a {
     color: black;
-    font-size: 3em;
-}
+    padding: .3em;
 
-h1.thick-font {
-    font-size: 8em;
-    margin-top: 1em;
-
-}
-
-h2.thick-font {
-    font-size: 5em;
-    margin-top: 1.3em;
-    margin-bottom: 1.3em;
 }
 
 .circle-big {
-    height: 25em;
-    width: 25em;
+    height: 105px;
+    width: 105px;
     border-radius: 50%;
     display: inline-block;
-    border: 1.5em white solid;
+    border: .3em white solid;
 }
 
 .circle-sm {
-    height: 4em;
-    width: 4em;
-    margin:.5em;
+    height: 1.6em;
+    width: 1.6em;
     border-radius: 50%;
     display: inline-block;
     background-color: red;
 }
 
-.center-txt {
-    font-size: 4em;
+.small-circle-text p {
+    margin-top: 10%;
     display: block;
-    margin-top: 30%;
+}
+
+.center-txt {
+    display: block;
+    margin-top: 35%;
+}
+
+.park-city-text {
+    margin: 13% 0;
 }
 
 .select {
@@ -100,6 +106,20 @@ h2.thick-font {
 }
 
 .ipad {
-    border: 2em #e6e6e6 solid;
-    width: 90%;
+    border: .6em #e6e6e6 solid;
+    width: 95%;
+    margin-bottom: .5em;
 }
+
+.red-bg {background-color: #E6563B;}
+
+.orange-bg {background-color: #EB9D3A;}
+
+.green-bg {background-color: #7CB06C;}
+
+.blue-bg {background-color: #00ABA9;}
+
+.light-white-bg {background-color: #F0F0F0;}
+
+.grey-bg {background-color: #E6E6E6;}
+
