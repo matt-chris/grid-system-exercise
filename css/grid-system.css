@@ -2,27 +2,53 @@
 
 body {
     background-color: #F0F0F0;
-    position: fixed;
     width: 100%;
+    font-family: 'Abel regular', sans-serif;
 }
+
 
 img {
     width: 30%;
     margin-top: -5%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 40px;
+}
+h4 {
+    font-size: 32px;
+}
+h5 {
+    font-size: 28px;
+}
+
+h6 {
+    font-size: 17px;
+}
+
 .white-block {
     background-color: white;
     margin-top: 12%;
     padding: 0;
-    height: 11em;
+    height: 6em;
 
 }
 
 .logo-image {
-    width: 38%;
+    width: 105px;
+    height: 105px;
     position: relative;
-    bottom: 27%;
+    bottom: 30px;
 }
 
 .codeup-text {
@@ -33,9 +59,6 @@ img {
     font-family: 'Abel', sans-serif;
 }
 
-.thick-font {
-    font-family: 'Anton', sans-serif;
-}
 
 div.header-font h1 {
     font-size: 8em;
@@ -47,46 +70,89 @@ div.header-font h1 {
 
 ul.nav {
     display: block;
-    margin: 2.2em auto 0 auto;
+    margin: 1.5em auto 0 auto;
 }
 
 ul.nav li {
     display: inline-block;
-    margin: 1em;
+
 }
 
 ul.nav li a {
     color: black;
-    font-size: 3em;
-}
-
-h1.thick-font {
-    font-size: 8em;
-    margin-top: 1em;
+    padding: .3em;
 
 }
+
+
 
 h2.thick-font {
-    font-size: 5em;
     margin-top: 1.3em;
     margin-bottom: 1.3em;
 }
 
-.circle {
-    height: 25em;
-    width: 25em;
+.circle-big {
+    height: 10.5625em;
+    width: 10.5625em;
     border-radius: 50%;
     display: inline-block;
-    border: 1.5em white solid;
+    border: .6em white solid;
 }
 
+.circle-sm {
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
+}
 
 .center-txt {
-    font-size: 4em;
     display: block;
-    margin-top: 30%;
+    margin-top: 38%;
+}
+
+.park-city-text {
+    margin: 13% 0;
 }
 
 .select {
-    margin-top: 6em;
+    margin: 5em 0 2em 0;
+}
+
+
+
+.ipad {
+    border: .6em #e6e6e6 solid;
+    width: 95%;
+}
+
+.red-bg {
+    background-color: #E6563B;
+}
+
+.orange-bg {
+    background-color: #EB9D3A;
+}
+
+.green-bg {
+    background-color: #7CB06C;
+}
+
+.blue-bg {
+    background-color: #00ABA9;
+}
+
+.light-white-bg {
+    background-color: #F0F0F0;
+}
+
+.grey-bg {
+    background-color: #E6E6E6;
+}
+
+.small-circle-text p {
+    margin-top: 30%;
+    display: block;
+    width: 95%;
 }
