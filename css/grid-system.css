@@ -72,12 +72,21 @@ h2.thick-font {
     margin-bottom: 1.3em;
 }
 
-.circle {
+.circle-big {
     height: 25em;
     width: 25em;
     border-radius: 50%;
     display: inline-block;
     border: 1.5em white solid;
+}
+
+.circle-sm {
+    height: 4em;
+    width: 4em;
+    margin:.5em;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: red;
 }
 
 .center-txt {
@@ -87,5 +96,10 @@ h2.thick-font {
 }
 
 .select {
-    margin-top: 6em;
+    margin: 5em 0 2em 0;
+}
+
+.ipad {
+    border: 2em #e6e6e6 solid;
+    width: 90%;
 }
