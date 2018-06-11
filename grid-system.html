@@ -10,81 +10,166 @@
     <link rel="stylesheet" href="css/grid-system.css">
 </head>
 <body>
+    <header>
+        <div class="d-sm-none">   <!-- Navbar is only viewable on extra small screens -->
+            <div class="white-block">
+                <img class="logo xs-logo mx-auto d-block" src="img/logo.png" alt="company logo">
+            </div>
+            <nav class="text-center">
+                <div class="col-12">
+                    <h2 class="thin-font">codeup design</h2>
+                </div>
+                <div class="col-12">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><p>SERVICES</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><p>WORK</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><p>BLOG</p></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><p>CONTACT</p></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>  <!-- disappears after XS -->
 
-<header>
-    <div class="d-sm-none">   <!-- Navbar is only viewable on extra small screens -->
-        <div class="white-block">
-            <img class="comp-logo mx-auto d-block" src="img/logo.png" alt="company logo">
-        </div>
-        <nav class="text-center">
-            <div class="col-12">
-                <h2 class="thin-font">codeup design</h2>
-            </div>
-            <div class="col-12">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><p>SERVICES</p></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><p>WORK</p></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><p>BLOG</p></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><p>CONTACT</p></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-</header>
+        <div class="d-none d-md-block"> <!-- Medium screen size navbar -->
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <img class="logo med-logo" src="img/logo.png" alt="company logo">
+                        <a class="large-font text-body" href="#">codeup design</a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">WORK</a></li>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="white-blk-med"></div>
+        </div> <!-- disappears after MED -->
 
-<!-------------------------------------------- CONTAINER STARTS HERE -------------------------------------------------->
-<div class="container text-center">
-    <h2>VISUAL DESIGN & WEB DEVELOPMENT</h2>
-    <h4 class="park-city-text">FROM PARK CITY, UTAH</h4>
+    </header>
 
-    <div class="row">
-        <div class="col-6">
-            <div class="circle-big red-bg ">
-                <h6 class="text-light center-txt">DESIGN</h6>
-            </div>
-        </div>
-        <div class="col-6">
-            <div class="circle-big orange-bg">
-                <h6 class="text-light center-txt">DEVELOP</h6>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-6">
-            <div class="circle-big green-bg">
-                <h6 class="text-light center-txt">SUPPORT</h6>
-            </div>
-        </div>
-        <div class="col-6">
-            <div class="circle-big blue-bg">
-                <h6 class="text-light center-txt">HOST</h6>
-            </div>
-        </div>
-    </div>
-    <!-- end of circle images -->
+<!-------------------------------------------- MAIN STARTS HERE -------------------------------------------------->
+    <main>
+        <div class="container text-center">
+            <h2>VISUAL DESIGN & WEB DEVELOPMENT</h2>
+            <h4 class="park-city-text">FROM PARK CITY, UTAH</h4>
 
-    <p class="selectW">SELECTED WORK</p>
-    <img class="ipad rounded" src="img/apple-ipad.jpg" alt="apple on ipad">
-    <div class="row">
-        <div class="col-6">
-            <p class="float-left ml-3">FEATURED PROJECT</p>
-        </div>
-        <div class="col-6">
-            <div class="circle-sm red-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
-            <div class="circle-sm orange-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
-            <div class="circle-sm green-bg small-circle-text float-right mr-2"><p class="font-weight-bold">S</p></div>
-            <div class="circle-sm blue-bg small-circle-text float-right mr-2"><p class="font-weight-bold">H</p></div>
-        </div>
-    </div>
-</div>
+            <div class="row">
+                <div class="col-6 col-md-3" style="margin:0 auto; display: inline-block;">
+                    <div class="circle-big red-bg ">
+                        <h6 class="text-light center-txt">DESIGN</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3" style="margin:0 auto; display: inline-block;">
+                    <div class="circle-big orange-bg">
+                        <h6 class="text-light center-txt">DEVELOP</h6>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-3">
+                    <div class="circle-big green-bg">
+                        <h6 class="text-light center-txt">SUPPORT</h6>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="circle-big blue-bg">
+                        <h6 class="text-light center-txt">HOST</h6>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div> <!-- closes container -->
+            <!-- end of circle images -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class=" col-md-8 col-12">
+                    <p class="selectW">SELECTED WORK</p>
+                </div>
+                <div class="d-none d-md-block col-md-4">
+                    <p class="selectW">THE LAST</p>
+                </div>
+            </div>
+            <!-- ---------------------------------------------- images --------------------------------------------- -->
+            <div class="row">
+                <div class=" col-md-4">
+                    <img class="ipad rounded" src="img/apple-ipad.jpg" alt="apple on ipad">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="float-left">FEATURED PROJECT</p>
+                        </div>
+                        <div class="col-6">
+                            <div class="circle-sm red-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
+                            <div class="circle-sm orange-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
+                            <div class="circle-sm green-bg small-circle-text float-right mr-2"><p class="font-weight-bold">S</p></div>
+                            <div class="circle-sm blue-bg small-circle-text float-right mr-2"><p class="font-weight-bold">H</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" d-none d-md-block col-md-4">
+                    <img class="ipad rounded" src="img/apple-ipad.jpg" alt="apple on ipad">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="float-left">FEATURED PROJECT</p>
+                        </div>
+                        <div class="col-6">
+                            <div class="circle-sm red-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
+                            <div class="circle-sm orange-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
+                            <div class="circle-sm green-bg small-circle-text float-right mr-2"><p class="font-weight-bold">S</p></div>
+                            <div class="circle-sm blue-bg small-circle-text float-right mr-2"><p class="font-weight-bold">H</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="1 d-none d-md-block col-md-4">
+                    <p>jsdfhkjds skdjhgdks jghsdkjg kdfs jglkd</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="1 d-none d-md-block col-md-4">
+                    <img class="ipad rounded" src="img/apple-ipad.jpg" alt="apple on ipad">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="float-left">FEATURED PROJECT</p>
+                        </div>
+                        <div class="col-6">
+                            <div class="circle-sm red-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
+                            <div class="circle-sm orange-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
+                            <div class="circle-sm green-bg small-circle-text float-right mr-2"><p class="font-weight-bold">S</p></div>
+                            <div class="circle-sm blue-bg small-circle-text float-right mr-2"><p class="font-weight-bold">H</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="1 d-none d-md-block col-md-4">
+                    <img class="ipad rounded" src="img/apple-ipad.jpg" alt="apple on ipad">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="float-left">FEATURED PROJECT</p>
+                        </div>
+                        <div class="col-6">
+                            <div class="circle-sm red-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
+                            <div class="circle-sm orange-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
+                            <div class="circle-sm green-bg small-circle-text float-right mr-2"><p class="font-weight-bold">S</p></div>
+                            <div class="circle-sm blue-bg small-circle-text float-right mr-2"><p class="font-weight-bold">H</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- closes container fluid div -->
+    </main>
 
 </body>
 </html>
