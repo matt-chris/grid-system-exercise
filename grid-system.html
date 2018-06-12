@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -38,6 +39,37 @@
             </nav>
         </div>  <!-- disappears after XS -->
 
+        <div class="d-none d-sm-block d-md-none"><!------------------------ NAVBAR FOR SMALL SCREEN STARTS HERE -------------------------->
+            <div class="white-bg-sm"></div>
+            <nav class="text-center small-nav">
+                <div class="container-fluid">
+                    <ul class="nav justify-content-center">
+                        <li class="small-nav-item">
+                            <a class="small-nav-link" href="#">SERVICE</a>
+                        </li>
+                        <li class="small-nav-item">
+                            <a class="small-nav-link" href="#">WORK</a>
+                        </li>
+                        <li class="small-nav-item">
+                            <a class="small-nav-link" href="#"><img class="comp-logo comp-logo-small" src="img/logo.png"></a>
+                        </li>
+
+                        <li class="small-nav-item">
+                            <a class="small-nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="small-nav-item">
+                            <a class="small-nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                <h2 class="thin-font small-codeup">codeup design</h2>
+                <h3 class="small-visual">VISUAL DESIGN & WEB DEVELOPMENT</h3>
+
+                <h4 class="park-city-small">FROM PARK CITY, UTAH</h4>
+            </nav>
+            <div style="padding: 50px;"></div>
+        </div>
+
         <div class="d-none d-md-block"> <!-- Medium screen size navbar -->
             <nav class="navbar">
                 <div class="container-fluid">
@@ -57,39 +89,71 @@
         </div> <!-- disappears after MED -->
 
     </header>
-
 <!-------------------------------------------- MAIN STARTS HERE -------------------------------------------------->
     <main>
         <div class="container text-center">
-            <h2>VISUAL DESIGN & WEB DEVELOPMENT</h2>
-            <h4 class="park-city-text">FROM PARK CITY, UTAH</h4>
+            <h2 class="d-block d-sm-none d-md-block">VISUAL DESIGN & WEB DEVELOPMENT</h2>
+            <h4 class="park-city-text d-block d-sm-none d-md-block">FROM PARK CITY, UTAH</h4>
 
-            <div class="row">
-                <div class="col-6 col-md-3" style="margin:0 auto; display: inline-block;">
-                    <div class="circle-big red-bg ">
-                        <h6 class="text-light center-txt">DESIGN</h6>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3" style="margin:0 auto; display: inline-block;">
-                    <div class="circle-big orange-bg">
-                        <h6 class="text-light center-txt">DEVELOP</h6>
-                    </div>
-                </div>
+            <!-------------------------------------------- CONTAINER STARTS HERE -------------------------------------------------->
+            <!-- XS screen view -->
+            <div class="d-sm-none">
+                <div class="container-fluid text-center">
+                    <div class="row">
 
-                <div class="col-6 col-md-3">
-                    <div class="circle-big green-bg">
-                        <h6 class="text-light center-txt">SUPPORT</h6>
-                    </div>
-                </div>
-                <div class="col-6 col-md-3">
-                    <div class="circle-big blue-bg">
-                        <h6 class="text-light center-txt">HOST</h6>
+                        <div class="col-6">
+                            <div class="circle-big1 red-bg ml-4">
+                                <h6 class="text-light center-txt">DESIGN</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="circle-big1 orange-bg mr-3">
+                                <h6 class="text-light center-txt">DEVELOP</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="circle-big1 green-bg ml-4 circle-margin-top">
+                                <h6 class="text-light center-txt">SUPPORT</h6>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="circle-big1 blue-bg mr-3 circle-margin-top">
+                                <h6 class="text-light center-txt">HOST</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <hr>
+
+            <!--- Small Page design -->
+
+            <div class="d-none d-sm-block">
+                <div class="container text-center small-page-circles">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="circle-big-small red-bg">
+                                <h6 class="text-light center-txt">DESIGN</h6>
+                            </div>
+                            <div class="circle-big-small orange-bg">
+                                <h6 class="text-light center-txt">DEVELOP</h6>
+                            </div>
+
+                            <div class="circle-big-small green-bg">
+                                <h6 class="text-light center-txt">SUPPORT</h6>
+                            </div>
+
+                            <div class="circle-big-small blue-bg">
+                                <h6 class="text-light center-txt">HOST</h6>
+                            </div>
+                            <hr class="line">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div> <!-- closes container -->
-            <!-- end of circle images -->
+        <!-- end of circle images -->
 
         <div class="container-fluid">
             <div class="row">
@@ -101,8 +165,9 @@
                 </div>
             </div>
             <!-- ---------------------------------------------- images --------------------------------------------- -->
+            <!-- top 2 select work images with "THE LAST" section -->
             <div class="row">
-                <div class=" col-md-4">
+                <div class="col-sm-6 col-md-4">
                     <img class="ipad rounded" src="img/apple-ipad.jpg" alt="apple on ipad">
                     <div class="row">
                         <div class="col-6">
@@ -117,8 +182,8 @@
                     </div>
                 </div>
 
-                <div class=" d-none d-md-block col-md-4">
-                    <img class="ipad rounded" src="img/apple-ipad.jpg" alt="apple on ipad">
+                <div class="col-sm-6 d-none d-sm-block col-md-4">
+                    <img class="ipad rounded" src="img/macbook.jpg" alt="apple on ipad">
                     <div class="row">
                         <div class="col-6">
                             <p class="float-left">FEATURED PROJECT</p>
@@ -131,15 +196,55 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="1 d-none d-md-block col-md-4">
-                    <p>jsdfhkjds skdjhgdks jghsdkjg kdfs jglkd</p>
+                <!-- right side, THE LAST section -->
+                <div class="d-none d-md-block col-md-4 the-last">
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="tiny-pic float-left" src="img/mobile-phone.jpg" src="mobile phone">
+                        </div>
+                        <div class="col-9">
+                            <h6 class="float-left">THE ADMIN AND ABSOLUTE POSITIONING</h6>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="tiny-pic float-left" src="img/head.jpg" src="mobile phone">
+                        </div>
+                        <div class="col-9">
+                            <h6 class="float-left">NIBBLER AWESOME WEBSITE TESTING</h6>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-3">
+                            <img class="tiny-pic float-left" src="img/ipad.jpg" src="mobile phone">
+                        </div>
+                        <div class="col-9">
+                            <h6 class="float-left">HOW TO GET GOOGLE TO LIKE YOU</h6>
+                        </div>
+                    </div>
                 </div>
             </div>
-
+            <!-- bottom 2 select work images with TWITTER section -->
             <div class="row">
-                <div class="1 d-none d-md-block col-md-4">
-                    <img class="ipad rounded" src="img/apple-ipad.jpg" alt="apple on ipad">
+                <div class="col-sm-6 d-none d-sm-block col-md-4">
+                    <img class="ipad rounded" src="img/man.jpg" alt="apple on ipad">
+                    <div class="row">
+                        <div class="col-6">
+                            <p class="float-left">FEATURED PROJECT</p>
+                        </div>
+                        <div class="col-6">
+                            <div class="circle-sm red-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
+                            <div class="circle-sm orange-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
+                            <div class="circle-sm green-bg small-circle-text float-right mr-2"><p class="font-weight-bold">S</p></div>
+                            <div class="circle-sm blue-bg small-circle-text float-right mr-2"><p class="font-weight-bold">H</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 d-none d-sm-block col-md-4">
+                    <img class="ipad rounded" src="img/security.jpg" alt="apple on ipad">
                     <div class="row">
                         <div class="col-6">
                             <p class="float-left">FEATURED PROJECT</p>
@@ -154,23 +259,18 @@
                 </div>
 
                 <div class="1 d-none d-md-block col-md-4">
-                    <img class="ipad rounded" src="img/apple-ipad.jpg" alt="apple on ipad">
+                    <br>
+                    <br>
                     <div class="row">
-                        <div class="col-6">
-                            <p class="float-left">FEATURED PROJECT</p>
-                        </div>
-                        <div class="col-6">
-                            <div class="circle-sm red-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
-                            <div class="circle-sm orange-bg small-circle-text float-right mr-2"><p class="font-weight-bold">D</p></div>
-                            <div class="circle-sm green-bg small-circle-text float-right mr-2"><p class="font-weight-bold">S</p></div>
-                            <div class="circle-sm blue-bg small-circle-text float-right mr-2"><p class="font-weight-bold">H</p></div>
+                        <div class="col-12">
+                            <i class="fa fa-twitter float-left tweet"></i><p> LAST TWEET</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum sodales augue, eu finibus augue pharetra id. Proin tincidunt justo vestibulum mauris ornare posuere.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div> <!-- closes container fluid div -->
     </main>
-
 </body>
 </html>
 
